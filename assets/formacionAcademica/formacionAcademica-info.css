@@ -1,0 +1,8 @@
+.formacionAcademica__panel-info-t{
+    color: var(--background-texto);
+}
+
+.formacionAcademica__panel-info-fecha{
+    color: var(--background-texto);
+    font-weight: 400;
+}

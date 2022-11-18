@@ -1,0 +1,11 @@
+.footer{
+    padding: 1rem;
+    background-color: var(--background-tarjetas-blanco);
+}
+
+.footer__p{
+    color: var(--background-texto);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2rem;
+}

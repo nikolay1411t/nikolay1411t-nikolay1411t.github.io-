@@ -1,0 +1,16 @@
+.Contactame{
+    background-color: var(--background-fondo-celeste);
+    padding: 2rem 1.5rem;
+}
+
+.Contactame__titulo{
+    text-align: center;
+    color: var(--background-texto);
+}
+
+.Contactame__p{
+    margin: 2rem 0;
+    padding: 0;
+    text-align: center;
+    color: var(--background-texto);
+}

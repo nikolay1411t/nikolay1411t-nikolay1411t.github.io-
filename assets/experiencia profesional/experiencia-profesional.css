@@ -1,0 +1,14 @@
+.experiencias{
+    padding: 2rem;
+}
+
+.experiencias__panel{
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencias__trabajo{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}

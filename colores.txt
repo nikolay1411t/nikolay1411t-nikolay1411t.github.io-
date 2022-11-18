@@ -1,0 +1,12 @@
+- colores de fondo
+background-fondo-blanco:#E5E5E5;
+background-fondo-celeste:#EAF2FD;
+background-fondo-celestegrisaseo:f8f9f9;
+background-tarjetas-blanco:#FFFFFF;
+
+-colores de texto
+background-texto:#03363D;
+
+-colores de botones
+background-botones: #174D4D;
+

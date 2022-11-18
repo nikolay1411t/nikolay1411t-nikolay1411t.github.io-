@@ -1,0 +1,129 @@
+
+.input-container{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.input-input {
+    width: 100%;
+    background-color: var(--background-tarjetas-blanco);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 55px;
+    transition: .4s ease all;
+}
+
+.input-textarea{
+    padding: 1rem .1rem;
+    width: 100%;
+    background-color: var(--background-tarjetas-blanco);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: .4s ease all;
+
+}
+
+.input-input:focus, .input-textarea:focus {
+    border-bottom: 3px solid var(--background-botones);
+    outline: none;
+    box-shadow: 5px 5px 10px 0 #808080;
+}
+
+.input-message-error{
+    font-size: 12px;
+    margin-top: .5rem;
+    margin-bottom: 0;
+    display: none;
+}
+
+.input-message-error-active{
+    display: block;
+}
+
+.formulacion__validacion__estado{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    z-index: 100;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.input-label{
+    color: var(--background-botones);
+    font-weight: 700;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transition: all 0.25s;
+}
+
+.input-label-active{
+    display: none;
+}
+
+.input-input:focus +.input-label,
+.input-input:valid + .input-label,
+.input-textarea:focus +.input-label,
+.input-textarea:valid +.input-label{
+    top: 5px;
+    left: 3px;
+    font-size: 10px;
+    transition: all 0.25s;
+}
+
+.input-container-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    font-size: 1.2rem;
+    height: 55px;
+    line-height: 45px;
+    width: 35%;
+    background-color: var(--background-botones);
+    color: var(--background-tarjetas-blanco);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s ease all;
+
+}
+
+.button:hover{
+    box-shadow: 2px 2px 2px 2px #101010;
+}
+
+.input-message-error-p{
+    font-size: 12px;
+    color: var(--background-texto);
+    display: none;
+}
+
+.input-message-error-p-activo{
+    display: inline;
+}
+
+/*   estilos para la validadcion*/
+
+.input-container-correcto .formulacion__validacion__estado{
+    color: green;
+    opacity: 1;
+}
+
+.input-container-incorrecto .input-label{
+    color: red;
+}
+
+.input-container-incorrecto .formulacion__validacion__estado {
+    color: red;
+    opacity: 1;
+}
+
+.input-container-incorrecto .input-input{
+    border: 3px solid red;
+} 
+

@@ -1,0 +1,13 @@
+.experiencias__titulo{
+    color: var(--background-texto);
+    text-align: center;
+}
+
+.experiencias__trabajo-info{
+    margin-top: 1rem;
+}
+
+.experiencias__trabajo-info-t,.experiencias__trabajo-info-p {
+    color: var(--background-texto);
+}
+

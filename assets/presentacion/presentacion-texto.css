@@ -1,0 +1,30 @@
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    margin: 1.3rem 1rem;
+}
+.presentacion__titulo{
+    color: var(--background-texto);
+}
+
+.presentacion__parrafo{
+    color: var(--background-texto);
+}
+
+.presentacion__lista{
+    display: flex;
+    flex-direction: row;
+}
+
+.presentacion__lista-items{
+    margin: 0 .2rem 0 0 ;
+    font-size: .9rem;
+    font-weight: 600;
+    list-style: none;
+    color: var(--background-texto);
+}
+
+.presentacion__lista-links {
+    text-decoration: none;
+    color: var(--background-texto);
+}

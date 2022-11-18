@@ -1,0 +1,16 @@
+:root {
+--background-fondo-blanco:#E5E5E5;
+--background-fondo-celeste:#EAF2FD;
+--background-fondo-celesteclaro:#EAF2FD;
+--background-fondo-celestegrisaseo:#f8f9f9;
+--background-tarjetas-blanco:#FFFFFF;
+
+--background-texto:#03363D;
+
+--background-botones: #174D4D;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+   background-color: var(--background-fondo-blanco);
+}

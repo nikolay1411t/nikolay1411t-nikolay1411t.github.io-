@@ -1,0 +1,19 @@
+.formacionAcademica{
+    padding: 1rem;
+    background-color: var(--background-fondo-celeste);
+}
+
+.formacionAcademica__titulo{
+    text-align: center;
+    color: var(--background-texto);
+    padding: 1.5rem 0;
+}
+
+.formacionAcademica__panel{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.formacionAcademica__panel-formacion{
+    margin-top: 1rem;
+}

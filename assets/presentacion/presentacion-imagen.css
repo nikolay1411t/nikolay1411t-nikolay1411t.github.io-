@@ -1,0 +1,9 @@
+.presentacion__imagen{
+    background-image: url(../img/IMG_20220303_172119_970.webp);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}

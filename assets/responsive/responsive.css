@@ -1,0 +1,171 @@
+@media screen and (min-width:768px){
+    html{
+        font-size: 1.2rem;
+    }
+   
+    .encabezado{
+        justify-content: space-evenly;
+    }
+    
+    .presentacion{
+        flex-direction: row;
+    }
+    .presentacion__imagen{
+        width: 170px;
+        height: 170px;
+        order: 1;
+    }
+    .presentacion__texto{
+        width: 70%;
+        order: 0;
+    }
+
+    .skill__skill{
+        width: calc(33.33% - 1rem);
+    }
+    .hobbie__hobbie{
+        width: calc(33.33% - 1rem);
+    }
+
+    .formacionAcademica__panel{
+        flex-direction: row;
+    }
+    .formacionAcademica__panel-formacion{
+        margin-right: 1rem;
+    }
+    .formacionAcademica__panel-imagen-img2{
+        margin: 0;
+    }
+    .formacionAcademica__panel-imagen{
+        width: 216px;
+        padding: 2rem .5rem;
+    }
+
+    
+    .experiencias__img,.experiencias__img1,.experiencias__img2,.experiencias__img3 {
+        height: 300px;
+    }
+}
+
+
+
+
+@media screen and (min-width:1220px){
+    html{
+        font-size: 1.8rem;
+    }
+
+    .encabezado{
+        margin-bottom: 1.5rem;
+        padding: 0 4rem;
+    }
+    .encabezado__logo{
+        width: 20%;
+    }
+    .encabezado__menu{
+        width: 80%;
+    }
+    .encabezado__nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .encabezado__contacto{
+        margin: auto ;
+        margin-left: 1rem;
+    }
+    .encabezado__menu{
+        display: flex;
+    }
+    .encabezado,.encabezado__nombre,.encabezado__contacto{
+        font-size: .8rem;
+    }
+
+
+    .presentacion{
+        flex-direction: row;
+        margin: 0 4rem;
+        margin-bottom: 1rem;
+    }
+    .presentacion__imagen{
+        width: 350px;
+        height: 350px;
+        order: 1;
+    }
+    .presentacion__texto{
+        width: 70%;
+        order: 0;
+    }
+
+
+    .sobreMi{
+        padding: 2rem 4rem;
+
+    }
+    .sobreMi__firma{
+        background-image: url(../img/20210405_100609.jpg);
+        width: 300px;
+        height: 150px;  
+    }
+
+    .skill__skill{
+        height: 300px;
+    }
+    .hobbie__hobbie{
+        height: 300px;
+    }
+
+    .formacionAcademica__panel-imagen{
+        width: 450px;
+        height: 300px;
+    }
+
+    .formacionAcademica__panel-imagen-img1{
+        margin-left: 1rem;
+        width: 400px;
+        height: 120px;
+    }
+    .formacionAcademica__panel-imagen-img2{
+        margin-left: 2.8rem;
+        width: 500px;
+        height: 150px;
+    }
+
+    .experiencias__trabajo{
+        flex-direction: row;
+    }
+    .experiencias__trabajo-i{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .experiencias__trabajo-info-t,.experiencias__trabajo-info-p{
+        font-size: .8rem;
+    }
+    .experiencias__trabajo-btn1, .experiencias__trabajo-btn2{
+        width: 45%;
+        font-size: .6rem;
+        padding: .5rem .3rem 
+    }
+    .experiencias__img,.experiencias__img1,.experiencias__img2,.experiencias__img3 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .experiencias__trabajo:nth-child(2)>.experiencias__img {
+        order: 1;
+    }
+
+    .Contactame__formulario{
+        padding: 0 8rem;
+    }
+
+    .input-input {
+        height: 70px;
+    }
+    .input-label{
+        font-size: .8rem;
+    }
+    
+
+}
